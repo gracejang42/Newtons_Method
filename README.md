@@ -15,3 +15,15 @@ Geometrically, (x1, 0) is the intersection of the x-axis and the tangent of the 
 x_n+1 = x_n - f(x_n)/f’(xn) 
 
 until a sufficiently precise value is reached. 
+
+There are two examples provided in this repository, both of which use a similar python approach to using Newton’s Method for approximating solutions. 
+
+NewtonFinal solves,
+
+1/(1 + e^x - 1/2)
+
+
+otherNewton solves,
+
+sin(x^2) - x^3 -1 
+
