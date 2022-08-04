@@ -31,5 +31,5 @@ $\frac{1}{1+e^{x}-\frac{1}{2}}$
 
 **otherNewton solves,**
 
-$\sin{x^{2}}-x^{3}-1$
+$sin \left(x^{2}\right)-x^{3}-1$
 
