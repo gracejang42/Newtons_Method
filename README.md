@@ -8,7 +8,7 @@ where,
 
 $f$ is a single-variable function defined for a real variable $x$ 
 
-$f^{'}* is the derivative of $f$ 
+$f^{'}$ is the derivative of $f$ 
 
 $x_0$ is an initial guess for the root of $f$ 
 
