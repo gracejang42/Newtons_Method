@@ -1,9 +1,9 @@
 # Newtons_Method
-Root-finding algorithm implementation in python 
+**Root-finding algorithm implementation in python** 
 
 The Newton-Raphson Method is a root-finding algorithm which produces successively better approximations to the roots (or zeros) or a real-valued function. The basic version of this method can be written as,
 
-x1 = x0 - f(x0)/f’(x0)   where,
+$x_1 = x_0-\frac{f(x_0)}{f^'(x_0)}$   where,
 
 f is a single-variable function defined for a real variable x 
 f’ is the derivative of f 
