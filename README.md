@@ -24,12 +24,12 @@ until a sufficiently precise value is reached.
 
 There are two examples provided in this repository, both of which use a similar python approach to using Newton’s Method for approximating solutions. 
 
-**NewtonFinal solves,**
+**NewtonFinal approximates,**
 
 $\frac{1}{1+e^{x}-\frac{1}{2}}$
 
 
-**otherNewton solves,**
+**otherNewton approximates,**
 
 $sin \left(x^{2}\right)-x^{3}-1$
 
