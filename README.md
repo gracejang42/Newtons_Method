@@ -3,16 +3,17 @@
 
 The Newton-Raphson Method is a root-finding algorithm which produces successively better approximations to the roots (or zeros) or a real-valued function. The basic version of this method can be written as,
 
-$x_1 = x_0-\frac{f \left(x_0\right)}{f^{'}\left(x_0\right)}$   where,
-
+$x_1 = x_0-\frac{f \left(x_0\right)}{f^{'}\left(x_0\right)}$   
+where,
+```
 f is a single-variable function defined for a real variable x 
 f’ is the derivative of f 
 x0 is an initial guess for the root of f 
 x1 is a better approximation of the root than x0
+```
+Geometrically, $\left(x_1, 0\right)$ is the intersection of the x-axis and the tangent of the graph of *f* at $\left(x_0, f\left(x_0\right)\right)$, meaning the improved guess is the unique root of the linear approximation at the initial point. The process is repeated as,
 
-Geometrically, (x1, 0) is the intersection of the x-axis and the tangent of the graph of f at (x0, f(x0)), meaning the improved guess is the unique root of the linear approximation at the initial point. The process is repeated as,
-
-x_n+1 = x_n - f(x_n)/f’(xn) 
+$x_{n+1}=x_n - \frac{f\left(x_n\right)}{f^{'}\left(x_n \right)}$ 
 
 until a sufficiently precise value is reached. 
 
