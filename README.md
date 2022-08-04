@@ -3,7 +3,7 @@
 
 The Newton-Raphson Method is a root-finding algorithm which produces successively better approximations to the roots (or zeros) or a real-valued function. The basic version of this method can be written as,
 
-$x_1 = x_0-\frac{f \left(x_0\right)}{f^'\left(x_0\right)}$   where,
+$x_1 = x_0-\frac{f \left(x_0\right)}{f^{'}\left(x_0\right)}$   where,
 
 f is a single-variable function defined for a real variable x 
 f’ is the derivative of f 
